@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#values">VALUES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="title-group">
+                <h1>Peterson's School of Music</h1>
+                <h2>Welcome to our School!</h2>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about">
+            <h1>General</h1>
+            <div class="about-container">
+                <div class="image-container">
+                    <h2>Instruments</h2>
+                    <img src="img/undraw_Options_re_light-theme.svg" alt="Woman sitting on piano" id="image1">
+                </div>
+                <div class="image-container">
+                    <h2>Age Group</h2>
+                    <img src="img/undraw_join_light-theme.svg" alt="Woman sitting on piano" id="image2">
+                </div>
+                <div class="image-container">
+                    <h2>Location</h2>
+                    <img src="img/undraw_Navigation_light-theme.svg" alt="Woman sitting on piano" id="image3">
+                </div>
+            </div>
+        </section>
+        <!-- Teaching Values Section -->
+        <section id="values">
+            <h1>Values</h1>
+            <div class="buttons">
+                <button class="primary">Diversity In Music</button>
+                <button class="secondary">Realism/Optimism</button>
+                <button class="primary">Thinking Creatively</button>
+                <button class="outline">Foundations Are Crucial</button>
+                <button class="secondary outline">e</button>
+                <button class="outline">e</button>
+            </div>
+            <div id="text-box" class="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, exercitationem voluptatibus eos adipisci alias porro voluptate praesentium qui accusamus ratione? Saepe quibusdam necessitatibus laboriosam consequuntur error numquam porro molestiae eligendi?</p>
+            </div>
+
+            
+        </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="social-icons">
+                <i class="fab fa-whatsapp"></i>
+                <i class="fas fa-phone"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-square"></i>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
